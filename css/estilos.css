@@ -1,0 +1,157 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.holder {
+    margin-left: 1.5em;
+}
+
+/* --- ESTILOS HEADER ----- */
+
+header{
+    /* encuentro el color con la extension
+    COLOR FINDER */
+background-color: #2e64a1;
+/* "em" es un tamaño que depende del font size
+en este caso 1em = 16px. 
+el primer valor es pading arriba abajo, el segundo a los costados*/
+padding: 1em 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display:inline-block;
+    /* position: relative;
+    bottom: 30px; */
+    margin: 0,5em 0;
+}
+
+
+
+/* ------- ESTTILOS NAV BAR ---------- */
+
+nav{
+    background-color: #6da9ed;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    /* Que me saque los "puntitos" */
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 13%;
+}
+
+nav ul li a{
+    color: white;
+    /* para sacar el subrayado de link */
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    /* para que lo haga lento */
+    transition: all 0.2s ease;
+}
+
+
+/* cuando paso el cursor por encima */
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+
+/* ------- ESTILOS MAIN ----- */
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.homeimg {
+    margin-bottom: 1.5em;
+}
+
+.homeimg img{
+    width: 100%;
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+
+.bienvenidos p{
+    text-align: justify;
+}
+
+.testimonios h2{
+    font-size: 1.3em;
+}
+
+.testimonios{
+    width: 25%;
+}
+
+.testimonio{
+    background-color: #ccc;
+    padding: 1em;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+/* ----ESTILOS FOOTER----- */
+
+footer{
+    background-color: #ccc;
+    /* para q no me ponga nada a los costados,
+    ocupe todo */
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
