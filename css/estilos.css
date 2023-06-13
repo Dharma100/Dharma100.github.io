@@ -80,7 +80,13 @@ nav ul li a.activo{
 h2 {
     color: #2e64a1;
     font-weight: 400;
-    margin: 0 0 1em;
+    margin: 0 0 0.7em;
+    text-decoration: underline;
+}
+
+h5{
+    color: #65a5ee;
+    margin: 0 0 0.7em;
 }
 
 .left{
@@ -132,8 +138,8 @@ h2 {
 .testimonio .cita {
     font-weight: bold;
     font-style: italic;
-    font-size: 1.4em;
-    display: block;
+    font-size: 0.8em;
+    
 }
 
 .testimonio .autor {
@@ -154,4 +160,27 @@ footer{
     padding: 3em 0;
     margin-top: 2em;
     text-align: center;
+}
+
+
+
+.centrado {
+    text-align: center;
+}
+
+.imagen{
+    width: 230px;
+    height: 460px;
+}
+
+.imgPequena{
+    width: 1500px;
+    height: 250px;
+}
+
+.centrar {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
